@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-yum update && yum install -y epel-release
+yum update -y && yum install -y epel-release
 
 # Install Repo
 yum install -y http://rpms.remirepo.net/enterprise/remi-release-7.rpm   #CentOS/RHEL 7
