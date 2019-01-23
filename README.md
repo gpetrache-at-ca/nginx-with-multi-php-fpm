@@ -6,7 +6,8 @@
 - DnsMasq or alternative
 
 ### Pre-Installation:
-Add the following to your host file and dnsmasq.
+Add the following to your host file and dnsmasq
+
 | IP Address | Hostname |
 | --- | --- |
 | 192.168.168.101 | multi-php.v.local |
@@ -20,6 +21,7 @@ vagrant up --provision
 
 ### Usage:
 Use domain in your browser to view desired php version.
+
 | Domain | PHP Version |
 | ------ | ------ |
 | php55.multi-php.v.local | v5.5 |
