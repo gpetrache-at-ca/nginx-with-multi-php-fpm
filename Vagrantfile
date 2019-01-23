@@ -6,6 +6,7 @@
 # backwards compatibility). Please don't change it unless you know what
 # you're doing.
 Vagrant.configure("2") do |config|
+  config.vagrant.plugins = ["vagrant-bindfs", "vagrant-vbguest"]
   config.vm.box = "geerlingguy/centos6"
   config.vm.box = "centos/7"
 
